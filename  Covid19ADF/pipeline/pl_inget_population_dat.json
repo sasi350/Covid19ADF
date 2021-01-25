@@ -29,7 +29,7 @@
 					"sink": {
 						"type": "DelimitedTextSink",
 						"storeSettings": {
-							"type": "AzureBlobStorageWriteSettings"
+							"type": "AzureBlobFSWriteSettings"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
@@ -55,7 +55,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "covid19dssa",
+						"referenceName": "covid19dsda",
 						"type": "DatasetReference"
 					}
 				]
